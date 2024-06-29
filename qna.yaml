@@ -1,0 +1,32 @@
+version: 2
+task_description: 'Teach the model about the Red Hat Corporate Leadership Team'
+created_by: matmille
+domain: tech_industry
+seed_examples:
+ - question: Who is the Senior Vice President and Chief Product Officer at Red Hat?
+   answer: Ashesh Badani
+ - question: Who is the Senior Vice President and Chief Marketing Officer at Red Hat?
+   answer: Leigh Day
+ - question: Who is the Senior Vice President and Chief People Officer at Red Hat?
+   answer: Jennifer Dudeck
+ - question: Who is the Senior Vice President and Chief Strategy Officer at Red Hat?
+   answer: Michael Ferris
+ - question: Who is the President and Chief Executive Officer at Red Hat?
+   answer: Matt Hicks
+ - question: Who is the Senior Vice President and Chief Financial Officer at Red Hat?
+   answer: Robert Leibrock
+ - question: Who is the Senior Vice President and Chief Operating Officer at Red Hat?
+   answer: Carolyn Nash
+ - question: Who is the Senior Vice President and General Counsel at Red Hat?
+   answer: Tom Savage
+ - question: Who is the Vice President and Chief Diversity, Equity & Inclusion Officer at Red Hat?
+   answer: Shuchi Sharma
+ - question: Who is the Senior Vice President and Chief Revenue Officer at Red Hat?
+   answer: Andrew Brown
+ - question: Who is the Chief Technology Officer and Senior Vice President, Global Engineering at Red Hat?
+   answer: Chris Wright
+document:
+ repo: https://github.com/matmille/redhat2024_knowledge.git
+ commit: 8d5282a
+ patterns:
+  - corporateleaders_rht2024.md
